@@ -1,0 +1,17 @@
+package ProjectName;
+class ClassName {
+    private String Object;
+    public String getObject() {
+        return Object;
+    }
+
+    public void setObject(String Object) {
+        this.Object = Object;
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        ClassName c = new ClassName();
+        c.getObject();
+    }
+}
